@@ -58,7 +58,7 @@ eksctl utils associate-iam-oidc-provider \
 eksctl create nodegroup --cluster=ekstabe \
                         --region=us-west-2 \
                         --name=ekstabe-ng-public1 \
-                        --node-type=t3.medium \
+                        --node-type=t2.medium \
                         --nodes=2 \
                         --nodes-min=2 \
                         --nodes-max=4 \
