@@ -40,7 +40,7 @@ eksctl utils associate-iam-oidc-provider \
 # Replace with region & cluster name
 eksctl utils associate-iam-oidc-provider \
     --region us-west-2 \
-    --cluster eksdemo1 \
+    --cluster ekstabe \
     --approve
 ```
 
